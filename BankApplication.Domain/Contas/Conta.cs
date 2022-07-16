@@ -1,3 +1,4 @@
+using BankApplication.Domain.Sedes;
 using BankApplication.Domain.Usuarios;
 
 namespace BankApplication.Domain.Contas
@@ -10,5 +11,6 @@ namespace BankApplication.Domain.Contas
         public decimal? Saldo { get; set; }
 
         public virtual Usuario Usuario { get; set; }
+        public virtual Sede Sede { get; set; }
     }
 }

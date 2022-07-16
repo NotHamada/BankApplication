@@ -13,6 +13,6 @@ namespace BankApplication.Domain.Usuarios
         public Perfil Perfil { get; set; }
 
         public virtual Conta Conta { get; set; }
-        public virtual Sede Sedes { get; set; }
+        public virtual Sede Sede { get; set; }
     }
 }
