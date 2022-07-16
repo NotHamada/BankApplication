@@ -14,5 +14,6 @@ namespace BankApplication.Domain.Usuarios
 
         public virtual Conta Conta { get; set; }
         public virtual Sede Sede { get; set; }
+        public virtual Cartao Cartao { get; set; }
     }
 }
